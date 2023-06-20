@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm the parent"
+        android:id="@+id/mainBtn"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baccha Down Left"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/leftMainBtn"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/mainBtn"
+        android:layout_below="@+id/mainBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baccha Down Right"
+        android:layout_marginRight="20dp"
+        android:id="@+id/RightMainBtn"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/mainBtn"
+        android:layout_below="@+id/mainBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baccha Up Left"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/leftMainBtn1"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/mainBtn"
+        android:layout_above="@+id/mainBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baccha Up Right"
+        android:layout_marginRight="20dp"
+        android:id="@+id/RightMainBtn1"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/mainBtn"
+        android:layout_above="@+id/mainBtn"/>
+    
+</RelativeLayout>
